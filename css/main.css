@@ -16,21 +16,53 @@ header{
 
 /** utilities classes **/
 
+/* utilities header */
 .login{
+    flex-grow: 1;
     text-align: end;
 }
 
-.logo .login{
+.logo{
     flex-grow: 1;    
 }
 
 .link{
-    flex-grow: 2;
+    flex-grow: 5;
     text-align: center;
+}
+
+/* utilities main */
+
+.bg-azure{
+    background-color: #add8e6;
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.bg-blue{
+    background-color: #00008b;
+    border-bottom: 2px solid ;
+}
+
+.bg-gray{
+    background-color: #d3d3d3;
+}
+
+.bg-black{
+    background-color: #23272a;
+    
 }
 
 
 /** container **/
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
 
 /* container-1 */
 .container-1{
@@ -49,7 +81,21 @@ header{
 
 }
 
+/* row */
+
+.row-1 {
+    background-color: violet;
+    height: 400px;
+    border-radius: 10px;
+}
 
 /** section **/
 
+main > section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 /****** da rimuovere *****/
+
