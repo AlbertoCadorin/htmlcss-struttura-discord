@@ -6,4 +6,50 @@
     box-sizing: border-box;
 }
 
+/* header */
 
+header{
+    background-color: #add8e6;
+    height: 80px;
+    padding: 20px 360px 20px 360px;
+}
+
+/** utilities classes **/
+
+.login{
+    text-align: end;
+}
+
+.logo .login{
+    flex-grow: 1;    
+}
+
+.link{
+    flex-grow: 2;
+    text-align: center;
+}
+
+
+/** container **/
+
+/* container-1 */
+.container-1{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+.container-1 > nav {
+    background-color: #daa520;
+    border: 1px dotted black ;
+    padding: 10px;
+    
+
+}
+
+
+/** section **/
+
+/****** da rimuovere *****/
