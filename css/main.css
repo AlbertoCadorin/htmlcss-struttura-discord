@@ -58,18 +58,19 @@ header{
 
 /** container **/
 
-.container{
-    width: 800px;
+.container {
+    height: 500px;
+    width: 1200px;
     margin: 0 auto;
+    display: flex;
 }
-
 
 /* container-1 */
 .container-1{
     
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    
 
 }
 
@@ -81,12 +82,41 @@ header{
 
 }
 
+/* container-2 */
+
+.container-2 {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-6 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
 /* row */
 
 .row-1 {
-    background-color: violet;
-    height: 400px;
+    background-color: #ee82ee;
     border-radius: 10px;
+}
+
+.row-2 {
+    flex-grow: 1;
+    background-color: #1e90ff;
+}
+
+.row-3 {
+    width: 480px;
+    background-color: #ffc0cb;
+}
+
+
+.row-6 {
+    background-color: #228b22;
+    width: 1200px;
 }
 
 /** section **/
@@ -96,6 +126,18 @@ main > section {
     padding-bottom: 30px;
 }
 
+/** footer **/
+
+
+
 
 /****** da rimuovere *****/
+
+.debug .row-6 {
+    height: 900px;
+}
+
+.debug .row-1 {
+    height: 400px;
+}
 
